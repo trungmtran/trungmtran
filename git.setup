@@ -1,0 +1,29 @@
+1. Setup a depository
+
+cd <to the dir where the sources reside>
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+echo "# trungmtran" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/trungmtran/trungmtran.git
+git push -u origin main
+3.  push an existing repository from the command line
+git remote add origin https://github.com/trungmtran/trungmtran.git
+git branch -M main
+git push -u origin main
+
+2. Access depository
+
+https://github.com/trungmtran/trungmtran.git
+
+
+3. Push an existing repository from the command line 
+
+git remote add origin https://github.com/trungmtran/trungmtran.git
+git branch -M main
+git push -u origin main
